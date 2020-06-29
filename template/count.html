@@ -1,0 +1,14 @@
+<h1>this count {{ count }} html page</h1>
+
+<h2>full text:</h2>
+{{ fulltext }}
+
+{% for word, counttotal in sort %}
+
+{{ word }}
+
+<br />
+{{ counttotal }}
+<br />
+
+{% endfor %}
